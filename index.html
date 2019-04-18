@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transaction Analysis and Trial Balance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+      <div class="form-row header">
+        <h2>Transaction Analysis and Trial Balance</h2>
+        <p>Walsh & Company, Electrical Contractors began operations on May 1. The following transactions occurred during the month of May:
+        </p>
+        <p>
+          <ol>
+            <span class="month">May</span>          <li>Stockholders invested $50,000 in the business in exchange for common stock. </li>
+            <li>Purchased equipment on account, $4,400.</li>
+            <li>Returned $400 of equipment that was not satisfactory. The return reduced the amount owed to the supplier. </li>
+            <li>Purchased supplies on account, $1060. </li>
+            <li>Purchased a truck for $10,700. Walsh paid $5,700 cash and gave a note payable for the balance. </li>
+          </ol>
+        </p>
+    
+        <br>
+        <i>Required</i>
+        <p>a. Create journal entries and record the above transacns in T-accounts, 
+          and key entries with the numbers of the transactions. 
+          The following accounts will be needed to record the transactions for May: Cash, Accounts Receivable; Supplies;
+          Equipment; Truck; Accounts Payable; Notes Payable; Common Stock; Dividends; Service Revenue; Rent Expense;
+          Wages Expense; Utilities Expense; Truck Expense; Advertrising Edxpense; and Interest Expense.</p>
+     
+  
+        a.
+  
+      </form>
+      <div class="wrapper">
+            <!-- begin journal form -->
+      <h3>General Journal</h3>
+      <div class="column-layout">
+         <div class="main column">
+            <span class="noborder">Date</span>
+            <span class="noborder">  Description</span>
+      
+            <br><br>
+  
+            <select class="dropdown" name="mydropdown">
+            <option value="Cash">Cash</option>
+            <option value="Accounts Payable">Accounts Payable</option>
+            <option value="Common stock">Common stock</option>
+            <option value="Equipment">Equipment</option>
+           </select>
+           <br><br>
+  
+            <select class="dropdown1" name="mydropdown1">
+             <option value="Common Stock">Common stock</option>
+            <option value="Equipment">Equipment</option>
+            <option value="Accounts Payable">Accounts Payable</option>
+            <option value="Cash">Cash</option>
+            </select>
+  
+            <br><br>
+          <div class="textDiv"> To record issuance of common stock.</div>
+  
+  
+          <br><select class="dropdown" name="mydropdown">
+              <option value="Equipment">Equipment</option>
+              <option value="Cash">Cash</option>
+              <option value="Accounts Payable">Accounts Payable</option>
+              <option value="Common stock">Common stock</option>
+          </select><br><br>
+          <select class="dropdown1" name="mydropdown1">
+              <option value="Accounts Payable">Accounts Payable</option>
+              <option value="Common Stock">Common stock</option>
+              <option value="Cash">Cash</option>
+              <option value="Equipment">Equipment</option>
+              </select>
+  
+          <br><br>
+          <div class="textDiv"> To record purchase of equipment on account.</div>
+  
+          <br>
+          <select class="dropdown" name="mydropdown">
+                <option value="Accounts Payable">Accounts Payable</option>
+                  <option value="Cash">Cash</option>
+                  <option value="Common stock">Common stock</option>
+                  <option value="Equipment">Equipment</option>
+              </select><br><br>
+              <select class="dropdown1" name="mydropdown">
+                  <option value="Equipment">Equipment</option>
+                  <option value="Common Stock">Common stock</option>
+                  <option value="Accounts Payable">Accounts Payable</option>
+                  <option value="Cash">Cash</option>
+                  </select>
+                <br><br>
+           <div class="textDiv"> To record return of equipment on account.</div>
+           </div>
+  
+   
+         <div class="debit">
+            <span class="border">Debit</span>
+              <br><br>
+              <input id="1" type="number" value="50000"><br><br>
+              <input id="2" type="number" value="0"><br><br>
+              <br>
+              <input id="3" type="number" value="4400"><br><br>
+              <input id="4" type="number" value="0"><br><br>
+              <br>
+              <input id="5" type="number" value="0"><br><br>
+              <input id="6" type="number" value="400"><br><br>
+            </div>
+  
+            <div class="debit">
+                <span class="border">Credit</span>
+                  <br><br>
+                  <input id="7" type="number" value="0"><br><br>
+                  <input id="8" type="number" value="50000"><br><br>
+                  <br>
+                  <input id="9" type="number" value="0"><br><br>
+                  <input id="10" type="number" value="4400"><br><br>
+                  <br>
+                  <input id="11" type="number" value="0"><br><br>
+                  <input id="12" type="number" value="400"><br><br>
+                </div>
+          </div>
+       </div>
+     <!-- end journal form -->
+
+       <!-- begin equipment form -->
+    <div class="wrapper">
+      <h4>Equipment</h4>
+      <div class="value-layout">
+         <div class="final-value">
+          <table>
+            <tbody>
+              <tr>
+                <td>(2) <input id="3" type="number" value="4400"></td>
+               <td>  <input id="9" type="number" value="0"></td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <tr>
+                <td> (3) <input id="6" type="number" value="0"></td>
+                <td> <input id="12" type="number" value="400"></td>
+            </tr>
+          </table>
+          <div class="balanceDiv"></div>
+  
+  
+        <table>
+            <tr>
+                <td> Bal <input id="6" type="number" value="4400"></td>
+                <td> <input id="12" type="number" value="0"></td>
+            </tr>
+          </table>
+       </div>
+      </div>
+       <!-- end equipment form -->
+    </div>
+  </body>
+  </body>
+</html>
